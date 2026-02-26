@@ -9,11 +9,11 @@ void Center::update() {
 }
 
 bn::fixed Center::mass() {
-            return _mass;
+    return _mass;
 }
 
 Center::Center(bn::fixed_point starting_position, bn::fixed mass, bn::fixed speed) : 
-            _sprite(bn::sprite_items::square.create_sprite(starting_position)),
-            _mass(mass),
-            _speed(speed) {
-        }
+    _sprite(bn::sprite_items::square.create_sprite(starting_position)),
+    _mass(mass),
+    _speed(speed) {
+}
