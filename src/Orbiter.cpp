@@ -10,6 +10,7 @@ Orbiter::Orbiter(bn::fixed_point starting_location, bn::fixed_point starting_vel
     _center(center) {
 }
 
+
 void Orbiter::update() {
     bn::fixed_point delta = _center.position() - _sprite.position();
 
